@@ -1,11 +1,9 @@
 def weight_on_planets():
     # write your code here
-    print("What do you weigh on earth? ", end='')
-
     planets = ["Mars", "Jupiter"]
     wmult = [0.38, 2.34]
 
-    weight = int(input())
+    weight = int(input("What do you weigh on earth? "))
     result = "\n"
 
     for i in range(2):

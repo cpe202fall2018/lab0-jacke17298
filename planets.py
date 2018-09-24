@@ -7,7 +7,7 @@ def weight_on_planets():
     result = "\n"
 
     for i in range(2):
-        result += "On " + planets[i] + " you would weigh " + str(wmult[i]*weight) + " pounds."
+        result += "On " + planets[i] + " you would weigh " + format(wmult[i]*weight) + " pounds."
 
         if i == 0:
             result += "\n"
